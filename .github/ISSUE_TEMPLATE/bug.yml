@@ -1,0 +1,70 @@
+name: Bug
+description: Reporte de bug — descreva como reproduzir e o impacto.
+labels: [bug]
+body:
+  - type: input
+    id: resumo
+    attributes:
+      label: Resumo
+      placeholder: Descreva o bug de forma breve
+
+  - type: textarea
+    id: ambiente
+    attributes:
+      label: Ambiente
+      description: "Versão, commit, SO, .NET, Browser"
+      placeholder: |
+        - Versão:
+        - Commit:
+        - SO:
+        - .NET:
+        - Browser:
+
+  - type: textarea
+    id: passos-reproduzir
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1.
+        2.
+        3.
+
+  - type: textarea
+    id: comportamento-esperado
+    attributes:
+      label: Comportamento esperado
+      placeholder: O que deveria acontecer?
+
+  - type: textarea
+    id: comportamento-atual
+    attributes:
+      label: Comportamento atual
+      placeholder: O que está acontecendo de errado?
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Stacktrace / Prints
+      placeholder: Cole aqui logs, stacktraces ou capturas de tela relevantes.
+
+  - type: dropdown
+    id: severidade
+    attributes:
+      label: Severidade
+      options:
+        - blocker
+        - high
+        - medium
+        - low
+
+  - type: textarea
+    id: investigacao
+    attributes:
+      label: Passos sugeridos para investigação
+      placeholder: Sugestões de como investigar o problema.
+
+  - type: textarea
+    id: observacoes
+    attributes:
+      label: Observações adicionais
+      placeholder: Qualquer informação adicional relevante.

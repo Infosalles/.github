@@ -1,0 +1,44 @@
+name: Épica
+description: Planejamento de épica — agrupa features e tasks.
+labels: [epic]
+body:
+  - type: input
+    id: titulo
+    attributes:
+      label: Título da Épica
+      placeholder: Nome descritivo da épica.
+
+  - type: textarea
+    id: objetivo-negocio
+    attributes:
+      label: Objetivo de Negócio
+      placeholder: Qual problema de negócio esta épica resolve?
+
+  - type: textarea
+    id: escopo
+    attributes:
+      label: "Escopo: O que está dentro e fora"
+      placeholder: |
+        Dentro do escopo:
+        -
+
+        Fora do escopo:
+        -
+
+  - type: textarea
+    id: resultados
+    attributes:
+      label: Resultados esperados / KPIs
+      placeholder: Quais são os resultados esperados e como serão medidos?
+
+  - type: textarea
+    id: entregaveis
+    attributes:
+      label: "Entregáveis: features e sub-issues"
+      placeholder: Liste as features e sub-issues que compõem esta épica.
+
+  - type: textarea
+    id: riscos
+    attributes:
+      label: Riscos e dependências
+      placeholder: Quais são os riscos e dependências identificados?

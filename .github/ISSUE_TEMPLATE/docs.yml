@@ -1,0 +1,37 @@
+name: Documentação
+description: Solicitações relacionadas à documentação e artefatos.
+labels: [docs]
+body:
+  - type: input
+    id: resumo
+    attributes:
+      label: Resumo
+      placeholder: Descreva brevemente a solicitação de documentação.
+
+  - type: dropdown
+    id: tipo-mudanca
+    attributes:
+      label: Tipo de mudança
+      options:
+        - Nova documentação
+        - Atualização / correção
+        - Remoção
+        - Artefato
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto / Motivo
+      placeholder: Por que essa mudança na documentação é necessária?
+
+  - type: textarea
+    id: referencias
+    attributes:
+      label: Referências / Links
+      placeholder: Links úteis, documentos relacionados ou referências externas.
+
+  - type: textarea
+    id: observacoes
+    attributes:
+      label: Observações finais
+      placeholder: Qualquer informação adicional relevante.

@@ -1,0 +1,29 @@
+name: Funcionalidade
+description: Descreva uma nova funcionalidade de maneira acionável.
+labels: [feature]
+body:
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      placeholder: Qual é o problema ou necessidade que motiva esta funcionalidade?
+
+  - type: input
+    id: objetivo
+    attributes:
+      label: Objetivo
+      placeholder: Descreva o objetivo principal da funcionalidade.
+
+  - type: textarea
+    id: criterios-aceitacao
+    attributes:
+      label: Critérios de Aceitação
+      placeholder: |
+        - [ ] Critério 1
+        - [ ] Critério 2
+
+  - type: textarea
+    id: notas-tecnicas
+    attributes:
+      label: Notas Técnicas / Links
+      placeholder: Detalhes técnicos, referências de arquitetura ou links relevantes.
