@@ -1,0 +1,26 @@
+name: Tarefa
+description: Tarefa técnica ou operacional.
+labels: [task]
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      placeholder: Descreva a tarefa a ser realizada.
+
+  - type: textarea
+    id: passos
+    attributes:
+      label: Passos
+      placeholder: |
+        1.
+        2.
+        3.
+
+  - type: textarea
+    id: criterios-aceitacao
+    attributes:
+      label: Critérios de Aceitação
+      placeholder: |
+        - [ ] Critério 1
+        - [ ] Critério 2
