@@ -32,12 +32,6 @@ body:
       placeholder: Quais são os resultados esperados e como serão medidos?
 
   - type: textarea
-    id: entregaveis
-    attributes:
-      label: "Entregáveis: features e sub-issues"
-      placeholder: Liste as features e sub-issues que compõem esta épica.
-
-  - type: textarea
     id: riscos
     attributes:
       label: Riscos e dependências
